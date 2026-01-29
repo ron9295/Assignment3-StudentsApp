@@ -34,6 +34,17 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     
+    <!-- Date and Time -->
+    <string name="birth_date">Birth Date</string>
+    <string name="birth_time">Birth Time</string>
+    <string name="birth_date_label">Birth Date:</string>
+    <string name="birth_time_label">Birth Time:</string>
+    
+    <!-- Success Dialogs -->
+    <string name="success">Success</string>
+    <string name="save_success_message">Student saved successfully!</string>
+    <string name="ok">OK</string>
+    
     <!-- Validation Messages -->
     <string name="error_empty_field">This field cannot be empty</string>
     <string name="error_duplicate_id">A student with this ID already exists</string>

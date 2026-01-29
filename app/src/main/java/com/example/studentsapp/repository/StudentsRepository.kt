@@ -7,9 +7,9 @@ object StudentsRepository {
     
     init {
         // Add sample students
-        students.add(Student("1", "Alice Smith", "050-1234567", "Tel Aviv", false))
-        students.add(Student("2", "Bob Johnson", "052-9876543", "Jerusalem", false))
-        students.add(Student("3", "Charlie Brown", "054-5555555", "Haifa", false))
+        students.add(Student(id = "1", name = "Alice Smith", phone = "050-1234567", address = "Tel Aviv", isChecked = false))
+        students.add(Student(id = "2", name = "Bob Johnson", phone = "052-9876543", address = "Jerusalem", isChecked = false))
+        students.add(Student(id = "3", name = "Charlie Brown", phone = "054-5555555", address = "Haifa", isChecked = false))
     }
     
     fun getAllStudents(): List<Student> {
